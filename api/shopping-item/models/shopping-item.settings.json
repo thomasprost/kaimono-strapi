@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shopping_items",
+  "info": {
+    "name": "Shopping Item"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "string"
+    },
+    "Info": {
+      "type": "string"
+    }
+  }
+}
